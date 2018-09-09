@@ -1,11 +1,5 @@
 #!/usr/bin/python
 
-# Reliability client for CS 352 
-# (c) 2018, R. P. Martin, under GPL Version 2
-
-# this client opens a text files, and send the lines one at a time to a remote echo
-# server, and makes sure the MD5 checksum of all the lines sent matches the lines received
-
 import argparse
 import time
 import struct 
