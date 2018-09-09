@@ -1,14 +1,5 @@
 # sock352.py 
 
-# (C) 2018 by R. P. Martin, under the GPL license, version 2.
-
-# this is the skeleton code that defines the methods for the sock352 socket library, 
-# which implements a reliable, ordered packet stream using go-back-N.
-#
-# Note that simultaneous close() is required, does not support half-open connections ---
-# that is outstanding data if one side closes a connection and continues to send data,
-# or if one side does not close a connection the protocol will fail. 
-
 #from operator import itemgetter, attrgetter, methodcaller
 from random import randrange, uniform
 import socket as ip
