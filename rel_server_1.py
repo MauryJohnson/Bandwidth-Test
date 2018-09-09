@@ -1,8 +1,5 @@
 #!/usr/bin/python
 
-# echo server for CS 352 
-# (c) 2018, R. P. Martin, under GPL Version 2
-
 # this sever echos back whatever it gets, up to the max of sock352.MAX_SIZE
 
 import argparse
